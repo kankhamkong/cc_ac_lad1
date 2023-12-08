@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin: 4px;
+    padding: 0;
+}
+
+body {
+    font-family: 'Kanit', sans-serif;
+}
+
+.h1 {
+    margin: 20px;
+    text-align: center;
+}
+
+.container {
+    background-image: conic-gradient(#488cfb,
+            #29dbbc,
+            #ddf505,
+            #ff9f0e,
+            #e440bb,
+            #655adc,
+            #488cfb);
+    position: absolute;
+    inset: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3%;
+}
+
+.card {
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.cob {
+    width: 250px;
+    height: 350px;
+    margin: 0 auto;
+    margin-top: 31px;
+    border: 3px solid gray;
+    border-radius: 5%;
+    justify-content: center;
+
+
+
+}
+
+.img {
+    width: 230px;
+    height: 238px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.close {
+    position: relative;
+    top: 5px;
+    right: 135px;
+    font-weight: bold;
+    color: gray;
+
+}
+
+.number {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+    left: 230px;
+    bottom: 45px;
+    background-color: red;
+    width: 37px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+
+}
+p{
+    margin: 10px;
+    text-align: center;
+}
